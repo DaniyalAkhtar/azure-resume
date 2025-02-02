@@ -22,6 +22,7 @@ namespace Company.Function
 
             ILogger log)
         {
+            //Here where Counter gets triggered
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             updatedCounter = counter;
